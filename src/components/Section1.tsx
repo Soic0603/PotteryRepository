@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Section1Img from "/public/image/pottery-section1-img.jpeg";
+import IconRight from "/public/svg/IconRight.svg";
 
 export default function Section1() {
   return (
@@ -15,7 +16,10 @@ export default function Section1() {
           <button className="w-[125px] text-[#333] py-[10px] leading-4 bg-white rounded-[10px]">
             구입하기
           </button>
-          <button className="text-white ">더 알아보기 &gt;</button>
+          <button className="text-white flex justify-center items-center gap-[8px]">
+            더 알아보기
+            <Image src={IconRight} alt=''></Image>
+          </button>
         </div>
       </div>
     </div>
