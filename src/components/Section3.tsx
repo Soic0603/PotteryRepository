@@ -5,7 +5,7 @@ import IconRightBlack from "/public/svg/IconRightBlack.svg";
 export default function Section3() {
   return (
     <div className="w-full bg-gray-100 overflow-hidden">
-      <div className="ml-[80px] flex justify-between items-center w-full h-full">
+      <div className="md:ml-[80px] flex flex-col-reverse md:flex-row justify-between items-center w-full h-full">
         <div className="flex justify-center h-full flex-col text-black py-8">
           <div className="text-[17px] leading-4 mb-[12px]">
             캠페인 | 여름 23
@@ -25,7 +25,7 @@ export default function Section3() {
           </div>
         </div>
         <div className="w-full h-full flex items-center mix-blend-multiply">
-          <Image src={ImageProduct} alt="" className="-my-20"></Image>
+          <Image src={ImageProduct} alt="" className="md:-my-20"></Image>
         </div>
       </div>
     </div>
