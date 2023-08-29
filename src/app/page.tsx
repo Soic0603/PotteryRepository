@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="w-full h-screen overflow-auto border-box">
       <Header />
-      <div className='space-y-5'>
+      <div className="space-y-5 overflow-hidden">
         <Section1 />
         <Section2 />
         <Section3 />
