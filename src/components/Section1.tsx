@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Section1Img from "/public/image/pottery-section1-img.jpeg";
-import IconRight from "/public/svg/IconRight.svg";
+import IconRight from "/public/svg/icon-right.svg";
 
 export default function Section1() {
   return (
