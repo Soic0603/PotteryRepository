@@ -6,7 +6,7 @@ export default function Section3() {
   return (
     <div className="w-full bg-gray-100 overflow-hidden">
       <div className="md:ml-[80px] flex flex-col-reverse md:flex-row justify-between items-center w-full h-full">
-        <div className="flex justify-center h-full flex-col text-black py-8">
+        <div className="w-full px-[24px] md:w-auto md:px-0 flex justify-center h-full flex-col text-black py-8">
           <div className="text-[12px] md:text-[17px] leading-[140%] md:leading-4 mb-[8px] md:mb-[12px]">
             캠페인 | 여름 23
           </div>
