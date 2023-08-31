@@ -29,7 +29,7 @@ export default function Footer() {
         </div>
         <div className="w-1/2 flex space-x-[20px]">
           <div className="w-full flex space-x-[20px]">
-            <div className="text-[12px] font-semibold leading-[19px] whitespace-pre">
+            <div className="text-[12px] min-w-[88px] font-semibold leading-[19px] whitespace-pre">
               위치 및 언어 설정
             </div>
             <div className="w-full space-y-[13px] text-[12px] text-[#333] leading-[19px]">
@@ -38,7 +38,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="w-full flex space-x-[20px]">
-            <div className="text-[12px] font-semibold leading-[19px] whitespace-pre">
+            <div className="text-[12px] min-w-[88px] font-semibold leading-[19px] whitespace-pre">
               회사정보
             </div>
             <div className="w-full space-y-[13px] text-[12px] text-[#333] leading-[19px]">
