@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="w-1/2">
           <Image src={PotteryLogo} alt="" className="w-[81px] mb-[20px]" />
           <div className="flex space-x-[20px] text-[#333] text-[12px] leading-[19px]">
-            <div className="w-full">
+            <div className="w-full space-y-[8px]">
               회사명 : 주식회사 포터리 <br />
               대표이사 : 김건우
               <br />
@@ -18,7 +18,7 @@ export default function Footer() {
               <br />
               통신판매업번호 : 2021-서울마포-1570
             </div>
-            <div className="w-full">
+            <div className="w-full space-y-[8px]">
               온라인 고객센터
               <br />
               운영시간 : 10:00-17:00 (주말/공휴일 휴무)
@@ -44,6 +44,98 @@ export default function Footer() {
             <div className="w-full space-y-[13px] text-[12px] text-[#333] leading-[19px]">
               <div className="border-b border-[#B7B7B7] pb-[13px]">
                 회사 정보
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="w-full flex space-x-[20px] border-t border-[#B7B7B7] pt-[12px]">
+        <div className="w-1/2 flex space-x-[20px]">
+          <div className="text-[12px] min-w-[196px] font-semibold leading-[19px] whitespace-pre">
+            쇼핑 및 알아보기
+          </div>
+          <div className="w-full flex space-x-[20px]">
+            <div className="w-full space-y-[13px] text-[12px] text-[#333] leading-[19px]">
+              <div className="border-b border-[#B7B7B7] pb-[13px]">
+                스토어
+              </div>
+              <div className="border-b border-[#B7B7B7] pb-[13px]">
+                셔츠
+              </div>
+              <div className="border-b border-[#B7B7B7] pb-[13px]">
+                니트
+              </div>
+              <div className="border-b border-[#B7B7B7] pb-[13px]">
+                티셔츠
+              </div>
+              <div className="border-b border-[#B7B7B7] pb-[13px]">
+                팬츠
+              </div>
+            </div>
+            <div className="w-full space-y-[13px] text-[12px] text-[#333] leading-[19px]">
+              <div className="border-b border-[#B7B7B7] pb-[13px]">
+                데님
+              </div>
+              <div className="border-b border-[#B7B7B7] pb-[13px]">
+                점퍼
+              </div>
+              <div className="border-b border-[#B7B7B7] pb-[13px]">
+                코트
+              </div>
+              <div className="border-b border-[#B7B7B7] pb-[13px]">
+                다운
+              </div>
+              <div className="border-b border-[#B7B7B7] pb-[13px]">
+                악세서리
+              </div>
+              <div className="border-b border-[#B7B7B7] pb-[13px]">
+                아카이브
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-1/2 flex space-x-[20px]">
+          <div className="w-full flex">
+            <div className="text-[12px] min-w-[88px] font-semibold leading-[19px] whitespace-pre">
+              주문 및 지원
+            </div>
+            <div className="w-full space-y-[13px] text-[12px] text-[#333] leading-[19px]">
+              <div className="border-b border-[#B7B7B7] pb-[13px]">
+                문의하기
+              </div>
+              <div className="border-b border-[#B7B7B7] pb-[13px]">
+                자주 묻는 질문
+              </div>
+              <div className="border-b border-[#B7B7B7] pb-[13px]">
+                주문 상태
+              </div>
+              <div className="border-b border-[#B7B7B7] pb-[13px]">
+                계정
+              </div>
+              <div className="border-b border-[#B7B7B7] pb-[13px]">
+                가까운 매장 찾기
+              </div>
+            </div>
+          </div>
+          <div className="w-full flex">
+            <div className="text-[12px] min-w-[88px] font-semibold leading-[19px] whitespace-pre">
+              포터리 정보
+            </div>
+            <div className="w-full space-y-[13px] text-[12px] text-[#333] leading-[19px]">
+              <div className="border-b border-[#B7B7B7] pb-[13px]">
+                브랜드 스토리
+              </div>
+              <div className="border-b border-[#B7B7B7] pb-[13px]">
+                채용 안내
+              </div>
+              <div className="border-b border-[#B7B7B7] pb-[13px]">
+                문의 및 규정 준수
+              </div>
+              <div className="border-b border-[#B7B7B7] pb-[13px]">
+                개인 정보 처리 방침
+              </div>
+              <div className="border-b border-[#B7B7B7] pb-[13px]">
+                이용 약관
               </div>
             </div>
           </div>
