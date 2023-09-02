@@ -4,7 +4,7 @@ import IconRight from "/public/svg/icon-right.svg";
 
 export default function Section2() {
   return (
-    <div className="w-full h-[655px] relative">
+    <div className="w-full h-[495px] md:h-[655px] relative">
       <div>
         <Image
           src={Section2Img}
