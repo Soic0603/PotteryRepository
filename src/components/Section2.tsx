@@ -22,7 +22,9 @@ export default function Section2() {
         ></div>
       </div>
       <div className="absolute top-0 bottom-0 left-[24px] md:left-[80px] flex justify-center flex-col text-white">
-        <div className="text-[12px] md:text-[17px] leading-[140%] md:leading-4 mb-[8px] md:mb-[12px]">캠페인 | 여름 23</div>
+        <div className="text-[12px] md:text-[17px] leading-[140%] md:leading-4 mb-[8px] md:mb-[12px]">
+          캠페인 | 여름 23
+        </div>
         <div className="text-[24px] md:text-[45px] leading-[130%] md:leading-[55px] mb-[24px] md:mb-[32px]">
           포터리만의 유려한 <br />
           실루엣과 편안한 착용감
