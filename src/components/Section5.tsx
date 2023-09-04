@@ -5,8 +5,8 @@ import IconRightBlack from "/public/svg/icon-right-black.svg";
 export default function Section5() {
   return (
     <div className="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-5">
-      <div className="flex align-center w-full bg-gray-100 relative px-[24px] md:px-[60px] py-[32px] md:py-[125px]">
-        <div className="flex flex-col md:flex-row justify-between md:items-center w-full">
+      <div className="flex justify-center align-center w-full bg-gray-100 relative px-[24px] md:px-[60px] py-[32px] md:py-[125px]">
+        <div className="flex flex-col md:flex-row justify-between md:items-center">
           <div className="flex justify-center flex-col text-black min-w-max">
             <div className="text-[12px] md:text-[17px] leading-[140%] md:leading-4 mb-[8px] md:mb-[12px] hidden md:flex">
               캠페인 | 여름 23
@@ -36,8 +36,8 @@ export default function Section5() {
           </div>
         </div>
       </div>
-      <div className="flex align-center w-full bg-gray-100 relative px-[24px] md:px-[60px] py-[32px] md:py-[125px]">
-        <div className="flex flex-col md:flex-row justify-between md:items-center w-full">
+      <div className="flex justify-center align-center w-full bg-gray-100 relative px-[24px] md:px-[60px] py-[32px] md:py-[125px]">
+        <div className="flex flex-col md:flex-row justify-between md:items-center">
           <div className="flex justify-center flex-col text-black min-w-max">
             <div className="text-[12px] md:text-[17px] leading-[140%] md:leading-4 mb-[8px] md:mb-[12px] hidden md:flex">
               캠페인 | 여름 23
