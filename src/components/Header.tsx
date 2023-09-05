@@ -6,7 +6,7 @@ import ShoppingIcon from "/public/svg/icon-shopping.svg";
 
 export default function Header() {
   return (
-    <div className="w-full flex justify-between max-w-7xl mx-auto border-b border-[#333]">
+    <div className="w-full flex justify-between max-w-7xl mx-auto md:border-b border-[#333]">
       {/* header left */}
       <div className="space-x-[30px] py-[10px] items-center text-[13px] font-medium leading-4 text-[#333] hidden md:flex">
         <Image src={PotteryLogo} alt="" className="w-[75px] pr-[15px]" />
