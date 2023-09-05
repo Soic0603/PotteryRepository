@@ -7,6 +7,7 @@ import { Autoplay, Navigation } from "swiper/modules";
 import IconCircleRight from "/public/svg/icon-circle-right.svg";
 import IconCircleLeft from "/public/svg/icon-circle-Left.svg";
 import IconMore from "/public/svg/icon-more.svg";
+import Footer from "@/components/Footer";
 
 import StoreImg1 from "/public/image/pottery-store-section2-img1.png";
 import StoreImg2 from "/public/image/pottery-store-section2-img2.png";
@@ -103,6 +104,7 @@ export default function store() {
             </div>
           </div>
         </div>
+        {/* section2 */}
         <div className="">
           <div className="px-0 md:px-[32px] lg:px-[82px] mx-auto ">
             <span className="text-[32px] font-semibold whitespace-pre text-[#333]">
@@ -144,6 +146,7 @@ export default function store() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
