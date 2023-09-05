@@ -6,10 +6,10 @@ import ShoppingIcon from "/public/svg/icon-shopping.svg";
 
 export default function Header() {
   return (
-    <div className="w-full flex justify-between px-0 md:px-[32px] lg:px-[82px] mx-auto md:border-b border-[#333]">
+    <div className="w-auto flex justify-between md:mx-[32px] lg:mx-[82px] md:border-b border-[#333]">
       {/* header left */}
       <div className="space-x-[30px] py-[10px] items-center text-[13px] font-medium leading-4 text-[#333] hidden md:flex">
-        <Image src={PotteryLogo} alt="" className="w-[75px] pr-[15px]" />
+        <Image src={PotteryLogo} alt="" className="w-[75px]" />
         <div>스토어</div>
         <div>셔츠</div>
         <div>데님</div>

@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <>
       {/* PC footer */}
-      <div className="px-[82px] pb-[100px] hidden md:flex flex-col space-y-[41px]">
+      <div className="px-[82px] pb-[100px] hidden lg:flex flex-col space-y-[41px]">
         <div className="w-full flex space-x-[20px] border-t border-[#B7B7B7] pt-[12px]">
           <div className="w-1/2">
             <Image src={PotteryLogo} alt="" className="w-[81px] mb-[20px]" />
@@ -129,7 +129,7 @@ export default function Footer() {
         </div>
       </div>
       {/* mobile footer */}
-      <div className="px-[20px] pb-[40px] md:hidden">
+      <div className="px-[20px] pb-[40px] lg:hidden">
         <div className="w-full border-t border-[#B7B7B7]" />
         <Image
           src={PotteryLogo}

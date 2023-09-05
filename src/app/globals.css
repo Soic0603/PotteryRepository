@@ -18,4 +18,9 @@
 
 body {
   font-family: "Pretendard" !important;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

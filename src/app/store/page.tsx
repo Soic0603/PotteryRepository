@@ -23,7 +23,7 @@ export default function store() {
         {/* section1 */}
         <div className="px-0 md:px-[32px] lg:px-[82px]">
           <div className=" w-full mx-auto flex justify-between items-center py-[90px]">
-            <div className="text-[45px] font-semibold leading-[54px] text-[#333]">
+            <div className="whitespace-pre text-[45px] font-semibold leading-[54px] text-[#333]">
               현대사회에 적합한 <br />
               유니폼, 포터리
             </div>
@@ -48,7 +48,7 @@ export default function store() {
               </div>
             </div>
           </div>
-          <div className="flex max-w-7xl mx-auto mx-space-x-2 rounded-2xl items-center bg-[#F7F7F7] px-[24px] py-[20px]">
+          <div className="flex max-screen mx-auto mx-space-x-2 rounded-2xl items-center bg-[#F7F7F7] px-[24px] py-[20px]">
             <div className="prev cursor-pointer min-w-[30px] h-[30px]">
               <Image src={IconCircleRight} alt=""></Image>
             </div>
@@ -133,12 +133,146 @@ export default function store() {
             >
               <Image src={StoreImg2} alt="" fill className="object-cover" />
             </div>
-
             <div
               className="overflow-hidden relative rounded-2xl shadow-lg"
               style={{
                 minWidth: "calc(36.7% + 241px)",
                 height: "500px",
+              }}
+            >
+              <Image src={StoreImg2} alt="" fill className="object-cover" />
+            </div>
+          </div>
+        </div>
+        {/* section3 */}
+        <div className="">
+          <div className="px-0 md:px-[32px] lg:px-[82px] mx-auto ">
+            <span className="text-[32px] font-semibold whitespace-pre text-[#333]">
+              신제품.{" "}
+            </span>
+            <span className="text-[32px] font-semibold whitespace-pre text-[#B7B7B7]">
+              당신의 일상을 새롭게 다채롭게
+            </span>
+          </div>
+          <div className="flex space-x-5 w-full overflow-scroll py-5 px-0 md:px-[32px] lg:px-[82px]">
+            <div
+              className="overflow-hidden relative rounded-2xl shadow-lg"
+              style={{
+                minWidth: "calc(23.5% + 162px)",
+                height: "456px",
+              }}
+            >
+              <Image src={StoreImg2} alt="" fill className="object-cover" />
+            </div>
+            <div
+              className="overflow-hidden relative rounded-2xl shadow-lg"
+              style={{
+                minWidth: "calc(23.5% + 162px)",
+                height: "456px",
+              }}
+            >
+              <Image src={StoreImg2} alt="" fill className="object-cover" />
+            </div>
+            <div
+              className="overflow-hidden relative rounded-2xl shadow-lg"
+              style={{
+                minWidth: "calc(23.5% + 162px)",
+                height: "456px",
+              }}
+            >
+              <Image src={StoreImg2} alt="" fill className="object-cover" />
+            </div>
+          </div>
+        </div>
+        {/* section4 */}
+        <div className="">
+          <div className="px-0 md:px-[32px] lg:px-[82px] mx-auto ">
+            <span className="text-[32px] font-semibold whitespace-pre text-[#333]">
+              당신의 하루를 빛나게.{" "}
+            </span>
+            <span className="text-[32px] font-semibold whitespace-pre text-[#333]">
+              시그널 아이템
+            </span>
+          </div>
+          <div className="flex space-x-5 w-full overflow-scroll py-5 px-0 md:px-[32px] lg:px-[82px]">
+            <div
+              className="overflow-hidden relative rounded-2xl shadow-lg"
+              style={{
+                minWidth: "calc(4.9% + 304px)",
+                height: "500px",
+              }}
+            >
+              <Image src={StoreImg2} alt="" fill className="object-cover" />
+            </div>
+            <div
+              className="overflow-hidden relative rounded-2xl shadow-lg"
+              style={{
+                minWidth: "calc(4.9% + 304px)",
+                height: "500px",
+              }}
+            >
+              <Image src={StoreImg2} alt="" fill className="object-cover" />
+            </div>
+            <div
+              className="overflow-hidden relative rounded-2xl shadow-lg"
+              style={{
+                minWidth: "calc(4.9% + 304px)",
+                height: "500px",
+              }}
+            >
+              <Image src={StoreImg2} alt="" fill className="object-cover" />
+            </div>
+            <div
+              className="overflow-hidden relative rounded-2xl shadow-lg"
+              style={{
+                minWidth: "calc(4.9% + 304px)",
+                height: "500px",
+              }}
+            >
+              <Image src={StoreImg2} alt="" fill className="object-cover" />
+            </div>
+          </div>
+        </div>
+        {/* section5 */}
+        <div className="pb-[200px]">
+          <div className="px-0 md:px-[32px] lg:px-[82px] mx-auto ">
+            <span className="text-[32px] font-semibold whitespace-pre text-[#333]">
+              쇼핑 혜택
+            </span>
+          </div>
+          <div className="flex space-x-5 w-full overflow-scroll py-5 px-0 md:px-[32px] lg:px-[82px]">
+            <div
+              className="overflow-hidden relative rounded-2xl shadow-lg"
+              style={{
+                minWidth: "calc(4.9% + 304px)",
+                height: "240px",
+              }}
+            >
+              <Image src={StoreImg2} alt="" fill className="object-cover" />
+            </div>
+            <div
+              className="overflow-hidden relative rounded-2xl shadow-lg"
+              style={{
+                minWidth: "calc(4.9% + 304px)",
+                height: "240px",
+              }}
+            >
+              <Image src={StoreImg2} alt="" fill className="object-cover" />
+            </div>
+            <div
+              className="overflow-hidden relative rounded-2xl shadow-lg"
+              style={{
+                minWidth: "calc(4.9% + 304px)",
+                height: "240px",
+              }}
+            >
+              <Image src={StoreImg2} alt="" fill className="object-cover" />
+            </div>
+            <div
+              className="overflow-hidden relative rounded-2xl shadow-lg"
+              style={{
+                minWidth: "calc(4.9% + 304px)",
+                height: "240px",
               }}
             >
               <Image src={StoreImg2} alt="" fill className="object-cover" />
