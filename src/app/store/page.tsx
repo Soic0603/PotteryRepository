@@ -28,7 +28,7 @@ export default function store() {
               유니폼, 포터리
             </div>
             <div className="flex space-y-[8px] md:space-y-[0px] flex-col md:flex-row text-[12px] font-semibold leading-[120%] text-[#333] pt-[15px] px-[15px] pb-[8px] rounded-t-[15px] border-x border-t border-[#EBEBEB]">
-              <div className="w-full md:w-[177px] md:border-r border-[#EBEBEB] pr-[15px]">
+              <div className="w-full md:w-[177px] pb-[16px] md:pb-[0px] border-b md:border-b-0 md:border-r border-[#EBEBEB] pr-[15px]">
                 <div className=" pb-1">쇼핑 지원이 필요하다면?</div>
                 <div className="flex space-x-[6px]">
                   <div className="font-normal text-[#B7B7B7] leading-[17px]">
@@ -37,7 +37,7 @@ export default function store() {
                   <Image src={IconMore} alt=""></Image>
                 </div>
               </div>
-              <div className="w-[192px] md:pl-[15px]">
+              <div className="w-[192px] md:pl-[15px] pt-[16px] md:pt-[0px]">
                 <div className=" pb-1">포터리 제품을 직접 만나보세요.</div>
                 <div className="flex space-x-[6px]">
                   <div className="font-normal text-[#B7B7B7] leading-[17px]">
@@ -123,6 +123,26 @@ export default function store() {
               }}
             >
               <Image src={StoreImg1} alt="" fill className="object-cover" />
+              <div
+                className="absolute inset-0 opacity-50"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(to bottom, #000000 0%, transparent 50%)",
+                }}
+              >
+              </div>
+              <div className="absolute p-[20px] md:p-[30px] text-[#ffffff]">
+                <div className="text-[14px] md:text-[18px] font-normal leading-[120%]">
+                  새로운 셔츠의 탄생
+                </div>
+                <div className="mt-[16px] md:mt-[24px] text-[22px] md:text-[28px] font-medium leading-[120%] md:leading-[36px]">
+                  포터리만의 유려한 <br />
+                  실루엣과 편안함 착용감
+                </div>
+                <div className="mt-[12px] text-[14px] md:text-[18px] opacity-70">
+                  언제 어디서나, 당신의 일상을 편안하게
+                </div>
+              </div>
             </div>
             <div
               className="overflow-hidden relative rounded-2xl shadow-lg"
